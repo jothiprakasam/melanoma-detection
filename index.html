@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melanoma Detection AI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>AI-Powered Melanoma Detection</h1>
+        <p>
+          Early detection saves lives. Our AI-driven solution provides fast and
+          accurate melanoma diagnosis using advanced image analysis.
+        </p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Our Solution</h2>
+        <p>
+          We offer an AI-based tool for early skin melanoma detection using
+          ResNet models and a comprehensive dataset. Our solution is designed to
+          assist dermatologists, general practitioners, and high-risk patients
+          with non-invasive, fast, and highly accurate assessments.
+        </p>
+        <div class="features">
+          <div class="feature">
+            <h3>Accurate Diagnosis</h3>
+            <p>
+              Our AI tool has high accuracy, reducing the need for unnecessary
+              biopsies.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Early Detection</h3>
+            <p>
+              Identify melanoma at its earliest stage, improving patient
+              outcomes.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Seamless Integration</h3>
+            <p>
+              Compatible with telemedicine platforms for easy access and remote
+              analysis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="upload">
+      <div class="container">
+        <h2>Try Our Tool</h2>
+        <p>
+          Upload an image of your skin lesion for analysis. Our AI will provide
+          a preliminary diagnosis within seconds.
+        </p>
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+          <input type="file" name="image" accept="image/*" required />
+          <input type="submit" value="Analyze Image" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Melanoma Detection AI. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

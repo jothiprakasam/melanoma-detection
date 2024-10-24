@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header .btn {
+  background: #00b894;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+header .btn:hover {
+  background: #009173;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+section {
+  padding: 40px 0;
+}
+
+#about {
+  background: #fff;
+  text-align: center;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#about p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.feature {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.feature p {
+  font-size: 1rem;
+}
+
+#upload {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#upload h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#upload p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+#upload form {
+  margin: auto;
+  width: 50%;
+}
+
+#upload input[type="file"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#upload input[type="submit"] {
+  background: #00b894;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#upload input[type="submit"]:hover {
+  background: #009173;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
